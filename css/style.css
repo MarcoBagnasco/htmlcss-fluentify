@@ -133,17 +133,39 @@ h6{
     color:black;
 }
 
+/* CENTRAL SECT. */
+.central-section{
+    padding: 20px;
+}
 /* Central-top */
 .central-top .features{
-    background-color: black; /* fake content */
-    height: 400px; /* fake content */
+    /* background-color: black; fake content */
+    /* height: 400px; fake content */
     width: 28%;
     margin:0 4%;
+    padding: 20px 0;
+    text-align: center;
 }
 .central-top .features:first-child{
     margin-left: 0;
 }
 .central-top .features:last-child{
     margin-right: 0;
+}
+/* features content */
+.central-top .features img{
+    height: 150px;
+}
+.central-top .features h2{
+    margin:20px 0 15px;
+    color:#7cbb01
+}
+.little-line{
+    display: inline-block;
+    width: 70px;
+    border-top: 2px solid #d3d3d3;
+}
+.central-top .features p{
+    padding:15px 0;
 }
 
