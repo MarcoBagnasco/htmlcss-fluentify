@@ -144,8 +144,6 @@ hr{
     margin-bottom: 20px;
 }
 .central-top .features{
-    /* background-color: black; fake content */
-    /* height: 400px; fake content */
     width: 29%;
     margin:0 3.25%;
     text-align: center;
@@ -164,11 +162,6 @@ hr{
     margin:20px 0 15px;
     color:#7cbb01
 }
-/* .little-line{
-    display: inline-block;
-    width: 70px;
-    border-top: 2px solid #d3d3d3;
-} */
 .row-bottom .features::before{
     content: '';
     display: inline-block;
@@ -178,5 +171,18 @@ hr{
 .central-top .features p{
     padding:20px 0;
     line-height: 1.5;
+}
+/* Central-bottom */
+.central-bottom{
+    background-color: rgba(0,255,0,.4); /*fake content*/
+    height: 500px; /*fake content*/
+}
+.central-bottom .bottom-left{
+    height: 100%;
+    background-color: aqua; /*fake content*/
+}
+.central-bottom .bottom-right{
+    height: 100%;
+    background-color: blueviolet; /*fake content*/
 }
 
