@@ -7,5 +7,26 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color:#818181;
     text-transform: uppercase;
+}
+
+
+/* UTILITIES */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+
+/* SITE HEADER */
+.main-header{
+    background-color: #0d325a;
 }
