@@ -120,3 +120,13 @@ h6{
     font-size: 48px;
     color: white;
 }
+.hero .subtitle{
+    height: 135px;
+    padding-top: 40px;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+.hero .subtitle h2{
+    margin-bottom: 10px;
+    color:black;
+}
