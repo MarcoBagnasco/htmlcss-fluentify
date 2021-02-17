@@ -64,7 +64,13 @@ hr{
 .btn.btn-big{
     padding: 20px;
 }
-
+/* Help Button*/
+.help.btn{
+    position: fixed;
+    bottom: 0;
+    right:250px;
+    min-width: 0;
+}
 
 /* SITE HEADER */
 .main-header{
