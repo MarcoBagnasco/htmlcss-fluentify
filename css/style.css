@@ -9,6 +9,12 @@ body{
     font-size: 16px;
     color:#8d8d8d;
 }
+body::before{
+    content: '';
+    display: block;
+    height: 80px;
+    background-color: #0d325a;
+}
 h1,
 h2,
 h3,
@@ -20,7 +26,9 @@ h6{
 hr{
     border: 1px solid #d3d3d3;
 }
+
 /* UTILITIES */
+/* Layout */
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -66,10 +74,11 @@ hr{
 }
 /* Help Button*/
 .help.btn{
+    min-width: 0;
     position: fixed;
     bottom: 0;
     right:250px;
-    min-width: 0;
+    z-index: 10;
 }
 
 /* SITE HEADER */
@@ -77,9 +86,16 @@ hr{
     font-size: 12px;
     line-height: 80px;
     text-transform: uppercase;
-    background-color: #0d325a;
+    background-color:rgba(13,50,90,.8);
 }
 /* Header parts */
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
 .main-header .logo{
     width: 15%;
 }
@@ -101,6 +117,18 @@ hr{
 }
 .main-header a.btn{
     line-height: 1;
+}
+.main-header a:not(.btn):hover{
+    color:#7cbb01;
+    text-shadow: 2px 2px #071b31;
+}
+.main-header .nav-center li{
+    border: 2px solid transparent;
+}
+.main-header .nav-center li:hover{
+    background-color: rgba(255,255,255,.2);
+    border-bottom: 2px solid #7cbb01;
+    border-top: 2px solid #7cbb01;
 }
 
 /* SITE MAIN */
@@ -128,7 +156,6 @@ hr{
     font-size: 48px;
     color: white;
 }
-
 /* Subtitle */
 .subtitle{
     height: 135px;
@@ -210,6 +237,7 @@ text-align: right;
 .footer-right li.select-item{
     border-bottom: 1px solid #8d8d8d;
     line-height: 1;
+    cursor: pointer;
 }
 .footer-right li.select-item .arrow{
   display: inline-block;
