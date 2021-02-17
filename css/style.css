@@ -31,11 +31,17 @@ h6{
 .float-left{
     float: left;
 }
+.w-half{
+    width: 50%;
+}
 /* Menù */
 .menu-inline li{
     display: inline-block;
     list-style: none;
     margin-right: 20px;
+}
+.menu-inline li:last-child{
+    margin-right: 0;
 }
 /* Buttons */
 .btn{
@@ -53,10 +59,10 @@ h6{
     background-color: #7cbb01;
     border:1px solid transparent;
 }
-
-.menu-inline li:last-child{
-    margin-right: 0;
+.btn.btn-big{
+    padding: 20px;
 }
+
 
 /* SITE HEADER */
 .main-header{
@@ -89,3 +95,28 @@ h6{
     line-height: 1;
 }
 
+/* SITE MAIN */
+/* Hero */
+.hero{
+    height: 470px;
+    background-color: #0d325a;
+    background-image: url('../img/background-header.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 115% 110%;
+}
+.hero .container{
+    position: relative;
+    height: 100%;
+}
+.hero .hero-text{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hero .hero-text h1{
+    margin-bottom: 30px;
+    font-size: 48px;
+    color: white;
+}
