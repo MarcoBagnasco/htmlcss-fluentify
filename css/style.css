@@ -18,7 +18,7 @@ h6{
     font-weight: 500;
 }
 hr{
-    border-top: 2px solid #d3d3d3;
+    border: 1px solid #d3d3d3;
 }
 /* UTILITIES */
 .container{
@@ -173,16 +173,19 @@ hr{
     line-height: 1.5;
 }
 /* Central-bottom */
-.central-bottom{
-    background-color: rgba(0,255,0,.4); /*fake content*/
-    height: 500px; /*fake content*/
-}
-.central-bottom .bottom-left{
-    height: 100%;
-    background-color: aqua; /*fake content*/
-}
+.central-bottom .bottom-left,
 .central-bottom .bottom-right{
-    height: 100%;
-    background-color: blueviolet; /*fake content*/
+    padding: 40px;
 }
-
+.central-bottom .bottom-right h2{
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: black;
+}
+.central-bottom .bottom-right p{
+    margin-bottom: 10px;
+}
+.central-bottom .bottom-right a{
+    font-size: 12px;
+    color: #618fc1;
+}
