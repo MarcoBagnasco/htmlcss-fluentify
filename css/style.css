@@ -7,10 +7,16 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color:#818181;
-    text-transform: uppercase;
+    color:#8d8d8d;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 500;
+}
 
 /* UTILITIES */
 .container{
@@ -25,8 +31,61 @@ body{
 .float-left{
     float: left;
 }
+/* Menù */
+.menu-inline li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+/* Buttons */
+.btn{
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.btn.btn-green{
+    background-color: #7cbb01;
+    border:1px solid transparent;
+}
+
+.menu-inline li:last-child{
+    margin-right: 0;
+}
 
 /* SITE HEADER */
 .main-header{
+    font-size: 12px;
+    line-height: 80px;
+    text-transform: uppercase;
     background-color: #0d325a;
 }
+/* Header parts */
+.main-header .logo{
+    width: 15%;
+}
+.main-header .nav-center{
+    width: 45%;
+}
+.main-header .nav-right{
+    width: 40%;
+    text-align: right;
+}
+/* Logo */
+.main-header .logo img{
+    vertical-align: middle;
+}
+/* Header link */
+.main-header a{
+    text-decoration: none;
+    color: white;
+}
+.main-header a.btn{
+    line-height: 1;
+}
+
