@@ -137,7 +137,7 @@ hr{
 
 /* CENTRAL SECT. */
 .central-section{
-    padding: 40px;
+    padding: 40px 40px 0;
 }
 /* Central-top */
 .central-top{
@@ -188,4 +188,16 @@ hr{
 .central-bottom .bottom-right a{
     font-size: 12px;
     color: #618fc1;
+}
+
+/* SITE FOOTER */
+footer{
+    background-color: #d3d3d3;
+    line-height: 150px;
+}
+.footer-left{
+    background-color: aqua; /*feke content*/
+}
+.footer-right{
+    background-color: blueviolet; /*feke content*/
 }
