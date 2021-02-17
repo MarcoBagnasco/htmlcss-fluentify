@@ -120,13 +120,30 @@ h6{
     font-size: 48px;
     color: white;
 }
-.hero .subtitle{
+
+/* Subtitle */
+.subtitle{
     height: 135px;
     padding-top: 40px;
     background-color: #d3d3d3;
     text-align: center;
 }
-.hero .subtitle h2{
+.subtitle h2{
     margin-bottom: 10px;
     color:black;
 }
+
+/* Central-top */
+.central-top .features{
+    background-color: black; /* fake content */
+    height: 400px; /* fake content */
+    width: 28%;
+    margin:0 4%;
+}
+.central-top .features:first-child{
+    margin-left: 0;
+}
+.central-top .features:last-child{
+    margin-right: 0;
+}
+
