@@ -195,9 +195,20 @@ footer{
     background-color: #d3d3d3;
     line-height: 150px;
 }
-.footer-left{
-    background-color: aqua; /*feke content*/
+.footer-left h2{
+    color: black;
 }
 .footer-right{
-    background-color: blueviolet; /*feke content*/
+text-align: right;
+}
+.footer-right li.select-item{
+    border-bottom: 1px solid #8d8d8d;
+    line-height: 1;
+}
+.footer-right li.select-item .arrow{
+  display: inline-block;
+  width: 70px;
+}
+.footer-right a.btn{
+    line-height: 1;
 }
