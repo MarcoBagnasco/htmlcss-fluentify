@@ -17,7 +17,9 @@ h5,
 h6{
     font-weight: 500;
 }
-
+hr{
+    border-top: 2px solid #d3d3d3;
+}
 /* UTILITIES */
 .container{
     width: 1200px;
@@ -135,15 +137,17 @@ h6{
 
 /* CENTRAL SECT. */
 .central-section{
-    padding: 20px;
+    padding: 40px;
 }
 /* Central-top */
+.central-top{
+    margin-bottom: 20px;
+}
 .central-top .features{
     /* background-color: black; fake content */
     /* height: 400px; fake content */
-    width: 28%;
-    margin:0 4%;
-    padding: 20px 0;
+    width: 29%;
+    margin:0 3.25%;
     text-align: center;
 }
 .central-top .features:first-child{
@@ -160,12 +164,19 @@ h6{
     margin:20px 0 15px;
     color:#7cbb01
 }
-.little-line{
+/* .little-line{
+    display: inline-block;
+    width: 70px;
+    border-top: 2px solid #d3d3d3;
+} */
+.row-bottom .features::before{
+    content: '';
     display: inline-block;
     width: 70px;
     border-top: 2px solid #d3d3d3;
 }
 .central-top .features p{
-    padding:15px 0;
+    padding:20px 0;
+    line-height: 1.5;
 }
 
