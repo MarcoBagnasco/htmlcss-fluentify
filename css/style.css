@@ -79,6 +79,7 @@ hr{
     bottom: 0;
     right:250px;
     z-index: 10;
+    border-radius: 5px 5px 0 0;
 }
 
 /* SITE HEADER */
