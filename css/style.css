@@ -315,3 +315,34 @@ text-align: right;
     display: inline-block;
     letter-spacing: 0;
 }
+
+/* COMPANY */
+.company{
+    height: 450px;
+    letter-spacing: .8px;
+    background-color: #0d325a;
+}
+.company .container{
+    position: relative;
+    height: 100%;
+}
+.company .container .company-plan{
+    width: 340px;
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.company-plan h2{
+    margin-bottom: 50px;
+    color: white;
+}
+.company-plan p{
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.company-plan a{
+    padding: 10px 20px;
+    font-size: 16px;
+}
