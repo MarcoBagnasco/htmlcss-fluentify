@@ -224,26 +224,26 @@ hr{
     color: #618fc1;
 }
 
-/* SITE FOOTER */
-footer{
+/* VIEW PLAN */
+.view-plan{
     background-color: #d3d3d3;
     line-height: 150px;
 }
-.footer-left h2{
+.view-plan-left h2{
     color: black;
 }
-.footer-right{
+.view-plan-right{
 text-align: right;
 }
-.footer-right li.select-item{
+.view-plan-right li.select-item{
     border-bottom: 1px solid #8d8d8d;
     line-height: 1;
     cursor: pointer;
 }
-.footer-right li.select-item .arrow{
+.view-plan-right li.select-item .arrow{
   display: inline-block;
   width: 70px;
 }
-.footer-right a.btn{
+.view-plan-right a.btn{
     line-height: 1;
 }
