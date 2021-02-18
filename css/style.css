@@ -229,9 +229,11 @@ a{
 
 /* VIEW PLAN */
 .view-plan{
+    position: relative;
     margin-bottom: 50px;
     line-height: 150px;
     background-color: #d3d3d3;
+    z-index: 11;
 }
 .view-plan-left h2{
     color: black;
