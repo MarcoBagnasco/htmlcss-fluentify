@@ -44,6 +44,9 @@ hr{
 .w-half{
     width: 50%;
 }
+.let-space-2{
+    letter-spacing: 2px;
+}
 /* Menù */
 .menu-inline li{
     display: inline-block;
@@ -226,8 +229,9 @@ hr{
 
 /* VIEW PLAN */
 .view-plan{
-    background-color: #d3d3d3;
+    margin-bottom: 50px;
     line-height: 150px;
+    background-color: #d3d3d3;
 }
 .view-plan-left h2{
     color: black;
@@ -246,4 +250,31 @@ text-align: right;
 }
 .view-plan-right a.btn{
     line-height: 1;
+}
+
+/* REAL-LIFE */
+.real-life .real-life-left{
+    padding: 50px;
+}
+.real-life .real-life-right{
+    padding: 70px;
+    padding-right: 150px;
+}
+.real-life .real-life-right h2{
+    margin: 20px 0;
+    color: black;
+}
+.real-life .real-life-right p{
+    margin-bottom: 30px;
+    padding: 10px 20px 0 0;
+}
+.real-life-right .clearfix{
+    text-align: center;
+    font-size: 14px;
+    color:#618fc1;
+}
+.real-life-right .clearfix a{
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 12px;
 }
