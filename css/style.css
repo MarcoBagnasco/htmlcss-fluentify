@@ -352,6 +352,7 @@ text-align: right;
 
 /* STRUCT PLAN */
 .struct-plan{
+    margin-bottom: 50px;
     letter-spacing: 1px;
 }
 .struct-plan h2{
@@ -359,6 +360,7 @@ text-align: right;
     text-align: center;
     color: black;
 }
+/* Employment box */
 .struct-plan .employment-box{
     width: 921px;
     margin: 0 auto;
@@ -401,4 +403,27 @@ text-align: right;
 }
 .employment-box .employment.business a{
     color: #82b10b;
+}
+
+/* FAQS */
+.faqs{
+    height: 145px;
+    background-color: #0d325a;
+}
+.faqs .container{
+    position: relative;
+    height: 100%;
+}
+.faqs .faqs-content{
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.faqs .faqs-content h2{
+    margin-bottom: 10px;
+    color: white;
+}
+.faqs .faqs-content h2 span{
+    color: #f2a519;
 }
