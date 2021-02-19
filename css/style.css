@@ -239,7 +239,7 @@ a{
     color: black;
 }
 .view-plan-right{
-text-align: right;
+    text-align: right;
 }
 .view-plan-right li.select-item{
     border-bottom: 1px solid #8d8d8d;
@@ -247,8 +247,8 @@ text-align: right;
     cursor: pointer;
 }
 .view-plan-right li.select-item .arrow{
-  display: inline-block;
-  width: 70px;
+    display: inline-block;
+    width: 70px;
 }
 .view-plan-right a.btn{
     line-height: 1;
@@ -270,8 +270,8 @@ text-align: right;
     color: black;
 }
 .real-life .real-life-right p{
-    letter-spacing: 0;
     margin-bottom: 30px;
+    letter-spacing: 0;
     padding: 10px 20px 0 0;
 }
 .real-life-right .clearfix{
@@ -290,7 +290,6 @@ text-align: right;
     padding: 30px;
 }
 .how-works-content{
-    /* letter-spacing: 1px; */
     width: 685px;
     margin: 30px auto;
     text-align: center;
@@ -316,7 +315,6 @@ text-align: right;
 }
 .how-works-content a{
     display: inline-block;
-    /* letter-spacing: 0; */
 }
 
 /* COMPANY */
@@ -324,7 +322,6 @@ text-align: right;
     height: 450px;
     margin-bottom: 30px;
     padding-top: 30px;
-    /* letter-spacing: .8px; */
     background-color: #0d325a;
 }
 .company .container{
@@ -356,7 +353,7 @@ text-align: right;
 /* STRUCT PLAN */
 .struct-plan{
     margin-bottom: 50px;
-    /* letter-spacing: 1px; */
+
 }
 .struct-plan h2{
     line-height: 170px;
@@ -458,7 +455,6 @@ footer .info{
 }
 footer .info h3{
     margin-bottom: 40px;
-    /* letter-spacing: 1px; */
     color: white;
 }
 footer .info ul{
